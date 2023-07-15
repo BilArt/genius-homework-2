@@ -591,6 +591,10 @@ footer {
   text-decoration: none;
 }
 
+.footer-link:hover {
+  color: var(--color-brand-blue);
+}
+
 .footer__icons-list {
   display: flex;
   gap: 24px;
@@ -604,6 +608,10 @@ footer {
   color: var(--color-white);
   text-decoration: none;
   font-size: 16px;
+}
+
+.address-link:hover {
+  color: var(--color-brand-blue);
 }
 
 .address-copyright {
