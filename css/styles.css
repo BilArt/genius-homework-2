@@ -149,7 +149,7 @@ h2 {
       rgba(255, 255, 255, 0.19) 52.74%,
       rgba(255, 255, 255, 0) 74.46%
     ),
-    url(../images/hero-section/background.jpg);
+    url(../images/hero-section/hero-background.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -410,6 +410,7 @@ h1 {
 
 .pagination-item:hover {
   fill: var(--color-brand-blue);
+  cursor: pointer;
 }
 
 .pagination-item:active {
