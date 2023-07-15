@@ -208,6 +208,37 @@ h1 {
 .block-pictures {
   flex-basis: 50%;
   min-width: 500px;
+  position: relative;
+}
+
+.star-1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url(../images/reincarnation-section/star-1.png);
+  background-size: auto;
+  background-position: 35% 60%;
+  background-repeat: no-repeat;
+}
+
+.star-2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url(../images/reincarnation-section/star-2.png);
+  background-size: auto;
+  background-position: 100% 10%;
+  background-repeat: no-repeat;
+}
+
+.star-3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url(../images/reincarnation-section/star-3.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 95% 40%;
 }
 
 .image-container:nth-last-child(1) {
@@ -244,7 +275,7 @@ h1 {
 }
 
 .choosing-section:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   margin-bottom: -400px;
@@ -255,7 +286,6 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 
 /* SVG Method! */
 /*.choosing-section {
@@ -331,7 +361,13 @@ h1 {
 
 .procedures__card-1 {
   height: 100%;
-  background: linear-gradient(180deg, rgba(1, 28, 68, 0.00) 47.40%, rgba(1, 28, 68, 0.73) 82.66%, #011C44 99.06%), url(../images/procedures-section/masks.jpg);
+  background: linear-gradient(
+      180deg,
+      rgba(1, 28, 68, 0) 47.4%,
+      rgba(1, 28, 68, 0.73) 82.66%,
+      #011c44 99.06%
+    ),
+    url(../images/procedures-section/masks.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -341,7 +377,13 @@ h1 {
 
 .procedures__card-2 {
   height: 100%;
-  background: linear-gradient(180deg, rgba(1, 28, 68, 0.00) 47.40%, rgba(1, 28, 68, 0.73) 82.66%, #011C44 99.06%), url(../images/procedures-section/injection.jpg);
+  background: linear-gradient(
+      180deg,
+      rgba(1, 28, 68, 0) 47.4%,
+      rgba(1, 28, 68, 0.73) 82.66%,
+      #011c44 99.06%
+    ),
+    url(../images/procedures-section/injection.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -351,7 +393,13 @@ h1 {
 
 .procedures__card-3 {
   height: 100%;
-  background: linear-gradient(180deg, rgba(1, 28, 68, 0.00) 47.40%, rgba(1, 28, 68, 0.73) 82.66%, #011C44 99.06%), url(../images/procedures-section/cleaning.jpg);
+  background: linear-gradient(
+      180deg,
+      rgba(1, 28, 68, 0) 47.4%,
+      rgba(1, 28, 68, 0.73) 82.66%,
+      #011c44 99.06%
+    ),
+    url(../images/procedures-section/cleaning.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -445,7 +493,6 @@ h1 {
 }
 
 .form-block {
-
   background-color: var(--color-brand-black);
   border-radius: 32px;
   padding: 48px 56px;
