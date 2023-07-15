@@ -1,2 +1,2 @@
-# genius-homework-1
-first homework
+# genius-homework-2
+second homework
